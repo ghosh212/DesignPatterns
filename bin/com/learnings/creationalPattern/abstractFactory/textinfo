@@ -1,0 +1,5 @@
+Abstract Factory is a creational design pattern that lets you produce families of related objects without specifying their concrete classes.
+
+ You avoid tight coupling between concrete products and client code.
+ Single Responsibility Principle. You can extract the product creation code into one place, making the code easier to support.
+  Open/Closed Principle. You can introduce new variants of products without breaking existing client code.

@@ -1,0 +1,14 @@
+Prototype is a creational design pattern that lets you copy existing objects without making your code dependent on their classes.
+
+
+
+The Prototype pattern delegates the cloning process to the actual objects that are being cloned. 
+The pattern declares a common interface for all objects that support cloning. 
+This interface lets you clone an object without coupling your code to the class of that object. 
+Usually, such an interface contains just a single clone method.
+
+
+Prototype design pattern is used when the Object creation is a costly affair and requires a lot of time and resources and you have a similar object already existing.
+
+Prototype pattern provides a mechanism to copy the original object to a new object and then modify it according to our needs.
+ Prototype design pattern uses java cloning to copy the objec
